@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Koneksi ke database
+// Koneksi ke database.
 include 'koneksi.php';
 
 $ambil = $koneksi->query("SELECT * FROM pembelian JOIN pelanggan ON pembelian.id_pelanggan = pelanggan.id_pelanggan WHERE pembelian.id_pembelian = '$_GET[id]'");

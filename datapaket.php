@@ -17,7 +17,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => "origin=419&destination=$distrik&weight=$berat&courier=$ekspedisi",
   CURLOPT_HTTPHEADER => array(
     "content-type: application/x-www-form-urlencoded",
-    // Silahkan diisi dengan api_key dari rajaongkir.com
+    // Silahkan di isi dengan api_key dari rajaongkir.com
     "key: "
   ),
 ));

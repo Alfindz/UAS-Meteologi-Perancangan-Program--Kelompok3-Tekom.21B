@@ -12,7 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
-    // Silahkan diisi dengan api_key dari rajaongkir.com
+    // Silahkan di isi dengan api_key dari rajaongkir.com
     "key: "
   ),
 ));

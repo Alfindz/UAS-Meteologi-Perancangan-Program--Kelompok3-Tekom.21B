@@ -20,7 +20,7 @@ if(isset($_POST['beli'])){
   // Mendapatkan jumlah yang diinputkan
   $jumlah = $_POST['jumlah'];
 
-  // Masukkan ke keranjang belanja
+  // Masukkan ke keranjang belanja.
   $_SESSION['keranjang'][$id_produk] = $jumlah;
 
   echo "<div class='alert alert-success'>Produk telah masuk ke keranjang</div>";

@@ -4,7 +4,7 @@ include 'koneksi.php';
 
 // Jika tombol daftar ditekan
 if(isset($_POST['daftar'])){
-  // Mengambil isian nama, email, password, alamat, telepon
+  // Mengambil isian nama, email, password, alamat telepon
   $nama = $_POST['nama'];
   $email = $_POST['email'];
   $password = $_POST['password'];

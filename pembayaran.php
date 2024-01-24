@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Koneksi ke database
+// Koneksi ke database.
 include 'koneksi.php';
 
 // Jika tidak ada session pelanggan (belum login)

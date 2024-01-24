@@ -199,7 +199,7 @@ if(!isset($_SESSION["keranjang"])){
         $koneksi->query("UPDATE produk SET stok_produk=stok_produk - $jumlah WHERE id_produk='$id_produk'");
       }
 
-      // Mengosongkan keranjang belanja
+      // Mengosongkan keranjang belanja.
       unset($_SESSION["keranjang"]);
 
       // Tampilan dialihkan ke halaman nota dari pembelian barusan

@@ -1,6 +1,6 @@
 <?php
 session_start();
-//koneksi ke database
+//koneksi ke database.
 include 'koneksi.php';
 
 $id_pembelian = $_GET['id'];

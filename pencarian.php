@@ -11,7 +11,7 @@ while($pecah = $ambil->fetch_assoc()){
 
 // echo "<pre>";
 // print_r($semuadata);
-// echo "</pre>";
+// echo "</pre>";.
 
 ?>
 
