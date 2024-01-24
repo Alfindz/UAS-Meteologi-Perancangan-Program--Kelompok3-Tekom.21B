@@ -14,7 +14,7 @@
           <li><a href="daftar.php">Daftar</a></li>
         <?php endif; ?>
 
-        <li><a href="checkout.php">checkout</a></li>
+        <li><a href="checkout.php">Checkout</a></li>
 
       </ul>
 
