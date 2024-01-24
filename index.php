@@ -20,7 +20,8 @@ include 'koneksi.php';
 <!-- konten   -->
 <section class="content">
   <div class="container">
-    <h1>Produk Terbaru</h1>
+    <h1>Produk Terbaru | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a>
+    </h1>
     <div class="row">
       <?php
       $ambil = $koneksi->query("SELECT * FROM produk");

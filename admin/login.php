@@ -47,6 +47,8 @@ if(isset($_POST['login'])){
 				
 				<h5>( Login yourself to get access )</h5>
 				<br />
+				<br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+				
 			</div>
 		</div>
 		<div class="row ">
