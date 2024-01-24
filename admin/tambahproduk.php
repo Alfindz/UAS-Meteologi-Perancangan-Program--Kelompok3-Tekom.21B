@@ -6,7 +6,7 @@ while($tiap = $ambil->fetch_assoc()){
 }
 
 // echo "<pre>";
-// print_r($datakategori);
+// print_r ($datakategori);
 // echo "</pre>";
 
 ?>

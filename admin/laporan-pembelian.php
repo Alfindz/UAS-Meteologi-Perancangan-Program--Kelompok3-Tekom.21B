@@ -12,7 +12,7 @@ if(isset($_POST['kirim'])){
   }
 
   // echo "<pre>";
-  // print_r($semuadata);
+  // print_r ($semuadata);
   // echo "</pre>";
 
 }

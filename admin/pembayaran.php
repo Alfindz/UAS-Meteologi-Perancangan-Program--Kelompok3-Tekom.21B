@@ -1,7 +1,7 @@
 <h2>Data Pembayaran</h2>
 
 <?php
-// Mendapatkan id_pembelian dari url
+// Mendapatkan id_pembelian dari url.
 $id_pembelian = $_GET['id'];
 
 // Mengambil data pembayaran berdasarkan id_pembelian

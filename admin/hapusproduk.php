@@ -9,6 +9,6 @@ if(file_exists("../foto_produk/$fotoproduk")){
 }
 
 $koneksi->query("DELETE FROM produk WHERE id_produk = '$_GET[id]'");
-
+// hapus produk
 echo "<script>alert('Produk terhapus');</script>";
 echo "<script>location='index.php?halaman=produk';</script>";

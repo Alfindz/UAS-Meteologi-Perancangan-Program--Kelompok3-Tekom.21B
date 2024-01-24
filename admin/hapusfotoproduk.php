@@ -3,7 +3,7 @@
 $id_foto = $_GET['idfoto'];
 $id_produk = $_GET['idproduk'];
 
-// Mengambil data
+// Mengambil data.
 $ambilfoto = $koneksi->query("SELECT * FROM produk_foto WHERE id_produk_foto='$id_foto'");
 $detailfoto = $ambilfoto->fetch_assoc();
 

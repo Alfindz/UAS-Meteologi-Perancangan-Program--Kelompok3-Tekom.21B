@@ -1,6 +1,6 @@
 ﻿<?php
 session_start();
-//koneksi ke database
+//koneksi ke database.
 $koneksi = new mysqli("localhost", "root", "", "db_tokoonline");
 
 if(!isset($_SESSION['admin'])){

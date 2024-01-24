@@ -1,4 +1,4 @@
-<h2>Data Pelanggan</h2>
+<h2>Data Pelanggan </h2>
 
 <table class="table table-bordered">
 	<thead>

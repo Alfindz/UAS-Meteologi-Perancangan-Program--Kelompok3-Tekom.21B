@@ -6,7 +6,7 @@ $detail = $ambil->fetch_assoc();
 
 ?>
 
-<!-- <pre><?php // print_r($detail); ?></pre> -->
+<!-- <pre><?php // print_r ($detail); ?></pre> -->
 
 <div class="row" style="margin-bottom:10px;">
 	<div class="col-md-4">

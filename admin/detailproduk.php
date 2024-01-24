@@ -11,8 +11,8 @@ while($tiap = $ambilfoto->fetch_assoc()){
 }
 
 // echo "<pre>";
-// print_r($detailproduk);
-// print_r($fotoproduk);
+// print_r ($detailproduk);
+// print_r ($fotoproduk);
 // echo "</pre>";
 
 ?>

@@ -1,4 +1,4 @@
-<h2>Selamat datang Administrator</h2>
+<h2>Selamat datang Administrator </h2>
 
 
 <!-- <pre> -->

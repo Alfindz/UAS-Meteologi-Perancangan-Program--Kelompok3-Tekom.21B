@@ -1,4 +1,4 @@
-<?php
+<?php 
 $semuadata = [];
 $ambil = $koneksi->query("SELECT * FROM kategori");
 while($tiap = $ambil->fetch_assoc()){
